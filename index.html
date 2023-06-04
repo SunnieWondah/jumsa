@@ -12,6 +12,8 @@
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link href='https://fonts.googleapis.com/css?family=Rubik:400,700,700i' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href='style.css' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!--[if lt IE 9]>
                 <script src="js/html5shiv.js"></script>            
@@ -50,23 +52,25 @@
                                 <a href="#home">Home</a>
                             </li>
                             <li>
-                                <a href="#services">Opportunities</a>
-                            </li>
-                            <li>
                                 <a href="#about">About Us</a>
                             </li>
                             <li>
-                                <a href="#clients">Testimonials</a>
+                                <a href="#services">JUMSA App</a>
                             </li>
+                            <li>
+                                <a href="#pricing">Support</a>
+                            </li>
+
+                            <!-- <li>
+                                <a href="#clients">Testimonials</a>
+                            </li> -->
                             <li>
                                 <a href="#news">News</a>
                             </li>
                             <li>
                                 <a href="#portfolio">Gallery</a>
                             </li>
-                            <!-- <li>
-                                    <a href="#pricing">Pricing</a>
-                                </li> -->
+
                             <li>
                                 <a href="#team">Hall of Fame</a>
                             </li>
@@ -90,26 +94,218 @@
 
             <!-- Home Section -->
             <div id="home" class="section no-page-title">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active container p-4">
+                            <div class="row">
+                                <div class="col-md-6 p-4">
+                                    <div class="content-wrapper">
+                                        <h1 class="big-text"
+                                            style="text-shadow: 0 0 3px #9d9e9e, 0 0 5px rgb(135, 137, 235);">
+                                            Dear <span>JUMSAites</span>,<br> Welcome To Your Online <br>Community
+                                        </h1>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 justify-content-around">
+                                    <img src="images/hero_image_01.jpg" alt="">
+                                </div>
+                                <div class="col-md-8 p-4">
+                                    <h2 style="color: skyblue; " class="big-text">
+                                        Jos University Medical Student Association
+                                    </h2>
+                                    <div class="button-holder text-left">
+                                        <a href="register.html" class="button">Register Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item container">
+                            <div class="row">
+                                <div class="col-12 col-md-6 justify-content-around">
+                                    <img src="images/hero_image_02.jpg" alt="">
+                                </div>
+                                <div class="col-md-6 p-4">
+                                    <div class="content-wrapper">
+                                        <h1 class="big-text"
+                                            style="text-shadow: 0 0 3px #9d9e9e, 0 0 5px rgb(135, 137, 235);">
+                                            Jos University<br> Medical Students <br>Association <br>
+                                            <span>JUMSA</span>
+                                        </h1>
+                                        <br>
+                                        <h2 class="big-text">
+                                            << The Confident Tribe>>
+                                        </h2>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-item container">
+                            <div class="row">
+                                <div class="col-md-6 p-4">
+                                    <div class="content-wrapper">
+                                        <h1 class="big-text"
+                                            style="text-shadow: 0 0 3px #9d9e9e, 0 0 5px rgb(135, 137, 235);">
+                                            Dear <span>JUMSAites</span>,<br> Welcome To Your Online <br>Community
+                                        </h1>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 justify-content-around">
+                                    <img src="images/hero_image_03.gif" alt="">
+                                </div>
+                                <div class="col-md-8 p-4">
+                                    <h2 style="color: skyblue; " class="big-text">
+                                        Jos University Medical Student Association
+                                    </h2>
+                                    <div class="button-holder text-left">
+                                        <a href="register.html" class="button">Register Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- About Section -->
+
+            <div id="about" class="section">
+                <div class="page-title-holder">
+                    <h3 class="entry-title">
+                        ABOUT US
+                    </h3>
+                </div>
                 <div class="section-wrapper block content-1170 center-relative">
                     <div class="content-wrapper">
-                        <h1 class="big-text" style="text-shadow: 0 0 3px #6acffd, 0 0 5px rgb(135, 137, 235);">
-                            Dear <span>JUMSAites</span>,<br> Welcome To Your Online <br>Community
-                        </h1>
-                        <h2 style="color: skyblue; text-shadow: 0 0 3px black, 0 0 5px rgb(135, 137, 235);" class="big-text">
-                            Jos University Medical Student Association
-                        </h2>
-                        <div class="button-holder text-left">
-                            <a href="register.html" class="button">Register Now</a>
+                        <div class="one_half last" data-threshold="0 0" data-jarallax-element="120 0">
+                            <img src="images/about_01.jpg" alt="" />
                         </div>
+
+                        <div class="one_half">
+                            <p class="title-description-up">
+                                We Are Visionary
+                            </p>
+                            <h2 class="entry-title medium-text">
+                                Shaping The Future of Healthcare:
+                                <br>
+                                The inspiring journey of JUMSA
+                            </h2>
+                            <p>
+                                The Jos University Medical Students Association (JUMSA) is a visionary organization of
+                                medical students who are currently enrolled at the College of Health Sciences,
+                                University of Jos, located in Plateau State, Nigeria. Established in 1978, JUMSA is
+                                deeply committed to fostering academic excellence, professional development, and
+                                community service within its ranks. By providing a collaborative platform for aspiring
+                                doctors to learn from one another, gain practical experience, and participate in
+                                leadership activities, JUMSA prepares its members for an illustrious career in medicine.
+                                Moreover, by organizing various initiatives such as free health services, public health
+                                education, and disease prevention campaigns, JUMSA strives to make a positive impact on
+                                communities in need. All these efforts underscore JUMSA's dynamic and proactive approach
+                                to shaping the future of healthcare not just in Nigeria but across the globe.
+                            </p>
+                            <br>
+
+                        </div>
+
+
+                        <div>
+                            <h2 class="entry-title medium-text">
+                                Meet
+                                <br>
+                                The Team
+                            </h2>
+                            <div class="container">
+                                <div class="row justify-content-around">
+                                    <div class="card col-md-6 col-lg-4" style="width: 18rem;">
+                                        <img src="images/team_item_01.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">President, JUMSA</h5>
+                                            <p class="card-text">Victor Bitrus Matabof</p>
+                                        </div>
+                                        <div class="card-body justify-content-around">
+                                            <a href="#" target="_blank">
+                                                <span class="fa fa-facebook"></span>
+                                            </a>
+                                            <a href="#" target="_blank">
+                                                <span class="fa fa-twitter"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card col-md-6 col-lg-4" style="width: 18rem;">
+                                        <img src="images/team_item_02.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Vice President, JUMSA</h5>
+                                            <p class="card-text">Tukura Liyatu Yamma</p>
+                                        </div>
+                                        <div class="card-body justify-content-around">
+                                            <a href="#" target="_blank">
+                                                <span class="fa fa-facebook"></span>
+                                            </a>
+                                            <a href="#" target="_blank">
+                                                <span class="fa fa-twitter"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card col-md-6 col-lg-4" style="width: 18rem;">
+                                        <img src="images/team_item_03.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Secretary General, JUMSA</h5>
+                                            <p class="card-text">Parkwat Walkyes Joshua</p>
+                                        </div>
+                                        <div class="card-body justify-content-around">
+                                            <a href="#" target="_blank">
+                                                <span class="fa fa-facebook"></span>
+                                            </a>
+                                            <a href="#" target="_blank">
+                                                <span class="fa fa-twitter"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="button-holder text-left">
+                            <a href="/about.html" class="button">
+                                LEARN MORE
+                            </a>
+                        </div>
+
+                        <div class="clear"></div>
                     </div>
                 </div>
             </div>
-
             <!-- Services Section -->
             <div id="services" class="section">
                 <div class="page-title-holder">
                     <h3 class="entry-title">
-                        OPPORTUNITIES
+                        JUMSA App
                     </h3>
                 </div>
                 <div class="section-wrapper block content-1170 center-relative">
@@ -120,11 +316,10 @@
                                 <p class="service-num">1</p>
                                 <div class="service-txt">
                                     <h4 style="margin-bottom: 6.3rem;">Networking</h4>
-                                    <h6><em>Get to the front door of your dreams</em></h6>
+                                    <h6><em>Get to know the family</em></h6>
                                     <p class="p1">
                                         Imagine a room filled with people you feel safe enough to share your dreams with
-                                        and work together towards achieving it. The best part? You get to do it with
-                                        people you...
+                                        and work together towards achieving it...
                                     </p>
                                     <br>
                                     <div class="button-holder text-left">
@@ -141,7 +336,7 @@
                                 <p class="service-num">2</p>
                                 <div class="service-txt">
                                     <h4>Make Payments and Donations</h4>
-                                    <h6><em>Seamless Transactions on the JUMSA web app</em></h6>
+                                    <h6><em>Seamless Transactions on the JUMSA App</em></h6>
                                     <p class="p2">
                                         Be it JUMSA dues or Fund Raising, with our well engineered web app, transparency
                                         can be ensured and this is done from the comfort of your home or class...
@@ -160,12 +355,10 @@
                             <div class="service-holder">
                                 <p class="service-num">3</p>
                                 <div class="service-txt">
-                                    <h4 style="margin-bottom: 3rem;">Social Connections</h4>
-                                    <h6><em>Put on your dancing shoes and be happy</em></h6>
+                                    <h4 style="margin-bottom: 3rem;">e-Library</h4>
+                                    <h6><em>Soft Copy = Soft Life</em></h6>
                                     <p class="p3">
-                                        Between getting immersed in the dissection lab or trying to prep for a physio test, the
-                                        chronicles of life in school is a tale of hustle and bustle. The struggle to
-                                        survive overtakes...
+                                        Don't know where to get that Material? PDF? Textbook? Jumsa has you covered...
                                     </p>
                                     <br>
                                     <div class="button-holder text-left">
@@ -181,46 +374,187 @@
                 </div>
             </div>
 
-            <!-- About Section -->
-            <div id="about" class="section">
+            <!-- Pricing Section -->
+            <div id="pricing" class="section">
                 <div class="page-title-holder">
                     <h3 class="entry-title">
-                        ABOUT US
+                        SUPPORT
                     </h3>
                 </div>
                 <div class="section-wrapper block content-1170 center-relative">
                     <div class="content-wrapper">
 
-                        <div class="one_half">
-                            <p class="title-description-up">
-                                We Are Visionary
-                            </p>
-                            <h2 class="entry-title medium-text">
-                                Shaping The Future of Healthcare:
-                                <br>
-                                 The inspiring journey of JUMSA 
-                            </h2>
-                            <p>
-                                The Jos University Medical Students Association (JUMSA) is a visionary organization of medical students who are currently enrolled at the College of Health Sciences, University of Jos, located in Plateau State, Nigeria. Established in 1978, JUMSA is deeply committed to fostering academic excellence, professional development, and community service within its ranks. By providing a collaborative platform for aspiring doctors to learn from one another, gain practical experience, and participate in leadership activities, JUMSA prepares its members for an illustrious career in medicine. Moreover, by organizing various initiatives such as free health services, public health education, and disease prevention campaigns, JUMSA strives to make a positive impact on communities in need. All these efforts underscore JUMSA's dynamic and proactive approach to shaping the future of healthcare not just in Nigeria but across the globe.
-                            </p>
+                        <p class="title-description-up">
+                            We Need You
+                        </p>
+                        <h2 class="entry-title medium-text">
+                            Funding The Future of Healthcare:
                             <br>
-                            <div class="button-holder text-left">
-                                <a href="#portfolio" class="button">
-                                    LEARN MORE
-                                </a>
+                            Your Donataions and Support to JUMSAites are Essential!
+                        </h2>
+
+                        <p>
+                            We are excited to announce that we are currently raising funds to revamp the renowned
+                            physiology resting spot in main campus and to construct a JUMSA resting spot in Lamingo
+                            class Area.
+                            Additionally, we would like to extend our heartfelt plea for support to fund our upcoming
+                            35th JUMSA health week, scheduled for the 3rd quarter of 2023. This year's programme
+                            promises a plethora of engaging events such as an Opening Ceremony and Scientific
+                            Conference, Symposium, Inter-Class Debate Competition, Community Health Awareness Programme,
+                            Inter-Level Medical Quiz Competition, among others. We recognise that adequate funding is
+                            crucial to the successful execution of these beautiful events.
+                            As a result, we kindly request your financial contribution to make this vision a reality.
+                            Please donate below. Your support will be highly appreciated.
+                        </p>
+                        <br>
+                        <a href="#" class="button scroll open-donate">
+                            Make Donation
+                        </a>
+                        <br>
+
+                        <div class="one_third">
+                            <div class="pricing-table ">
+                                <p class="pricing-num">1</p>
+                                <div class="pricing-wrapper">
+                                    <div class="pricing-table-header">
+                                        <div class="pricing-table-title">BASIC</div>
+                                    </div>
+                                    <div class="pricing-table-price">$25</div>
+                                    <div class="pricing-table-desc"><input type="checkbox" id="monthly" name="recuring"
+                                            value="1">
+                                        <label for="monthly">Give Monthly</label>
+                                    </div>
+                                    <div class="pricing-table-content-holder">
+                                        <ul>
+                                            <!-- <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Support
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    5GB Server Space
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    2 Users per Project
+                                                </li>
+                                                <li class="pricing-list included-no">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Email Integration
+                                                </li>
+                                                <li class="pricing-list included-no">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Download
+                                                </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="#" class="button scroll">
+                                        Donate
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="one_half last" data-threshold="0 0" data-jarallax-element="120 0">
-                            <img src="images/about_01.jpg" alt="" />
+                        <div class="one_third">
+                            <div class="pricing-table ">
+                                <p class="pricing-num">2</p>
+                                <div class="pricing-wrapper">
+                                    <div class="pricing-table-header">
+                                        <div class="pricing-table-title">ADVANCED</div>
+                                    </div>
+                                    <div class="pricing-table-price">$50</div>
+                                    <div class="pricing-table-desc"><input type="checkbox" id="monthly" name="recuring"
+                                            value="1">
+                                        <label for="monthly">Give Monthly</label>
+                                    </div>
+                                    <div class="pricing-table-content-holder">
+                                        <ul>
+                                            <!-- <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Support
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    5GB Server Space
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    2 Users per Project
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Email Integration
+                                                </li>
+                                                <li class="pricing-list included-no">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Download
+                                                </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="#" class="button scroll">
+                                        Donate
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="one_third last">
+                            <div class="pricing-table ">
+                                <p class="pricing-num">3</p>
+                                <div class="pricing-wrapper">
+                                    <div class="pricing-table-header">
+                                        <div class="pricing-table-title">VIP</div>
+                                    </div>
+                                    <div class="pricing-table-price">$75</div>
+                                    <div class="pricing-table-desc">
+                                        <input type="checkbox" id="monthly" name="recuring" value="1">
+                                        <label for="monthly">Give Monthly</label>
+                                    </div>
+                                    <div class="pricing-table-content-holder">
+                                        <ul>
+                                            <!-- <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Support
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    5GB Server Space
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    2 Users per Project
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Email Integration
+                                                </li>
+                                                <li class="pricing-list included-yes">
+                                                    <span class="fa fa-check" aria-hidden="true"></span>
+                                                    Unlimited Download
+                                                </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="pricing-button">
+                                    <a href="#" class="button scroll">
+                                        Donate
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div class="clear"></div>
                     </div>
                 </div>
             </div>
 
+
+
             <!-- Clients Section -->
-            <div id="clients" class="section no-page-title">
+            <!-- <div id="clients" class="section no-page-title">
                 <div class="section-wrapper block content-1170 center-relative">
                     <div class="content-wrapper">
                         <div class="one" data-threshold="0 0" data-jarallax-element="120 0">
@@ -295,13 +629,15 @@
                                 </div>
                                 <h4 class="entry-title">
                                     <a href="single2.html">
-                                        Once a student always a student
+                                        JUMSA Newsletter
                                     </a>
                                 </h4>
                                 <div class="excerpt">
-                                    You might have dropped your pen. But never do you stop holding on to the experiences
-                                    of being a student. Despite leaving school, learning never ends. Stay connected with
-                                    the trends...
+                                    Hello JUMSAites, <br>
+
+                                    We are excited to announce that the highly anticipated JUMSA Newsletter has been
+                                    released! Stay up to date with all the incredible activities and events that have
+                                    taken place within our association from February to April...
                                 </div>
                             </article>
 
@@ -314,14 +650,15 @@
                                 </div>
                                 <h4 class="entry-title">
                                     <a href="single.html">
-                                        Welcome To Your Abuja Community
+                                        JUMSA DUES PAYMENT NOTIFICATION
                                     </a>
                                 </h4>
                                 <div class="excerpt">
-                                    Alumni of the University of Benin with the aim to bring the Abuja Alumni community
-                                    alive;
-                                    There is a popular sentiment that anyone who successfully scales through JUMSA can
-                                    achieve whatever they set...
+                                    Dear JUMSAites, <br>
+                                    The newly elected JUMSA executives would like to draw your attention to the ongoing
+                                    payment of JUMSA dues. All students are required to make payments promptly.
+                                    <br>
+                                    Payment is to be made to...
                                 </div>
                             </article>
 
@@ -334,13 +671,14 @@
                                 </div>
                                 <h4 class="entry-title">
                                     <a href="single3.html">
-                                        Let's make JUMSA a better place
+                                        UMSA EXCO ENGAGES PLASCHEMA ON INSURANCE FOR MEDICAL STUDENTS.
                                     </a>
                                 </h4>
                                 <div class="excerpt">
-                                    While in university, there are certain things you wished you had. But it is our hope
-                                    that those things do not remain mere wishes for the future generation. Nourish your
-                                    alma mater...
+                                    On Monday, April 24th, the 35th JUMSA Executive members, which included the
+                                    President, Secretary General, Treasurer, Welfare Secretary, Auditor, and Public
+                                    Relations Officer, met with Dr. Fabong Jemchang, the Director General of Plateau
+                                    State Contributory Healthcare Management Agency (PLASCHEMA), to discuss...
                                 </div>
                             </article>
                         </div>
@@ -353,7 +691,7 @@
                     </div>
                     <div class="clear"></div>
                 </div>
-            </div>
+            </div> -->
 
 
             <!-- Portfolio Section -->
@@ -415,145 +753,7 @@
                 </div>
             </div>
 
-            <!-- Pricing Section -->
-            <!-- <div id="pricing" class="section">                   
-                    <div class="page-title-holder">
-                        <h3 class="entry-title">
-                            PRICING             
-                        </h3>
-                    </div>
-                    <div class="section-wrapper block content-1170 center-relative">                                                
-                        <div class="content-wrapper">
 
-                            <div class="one_third">
-                                <div class="pricing-table ">
-                                    <p class="pricing-num">1</p>
-                                    <div class="pricing-wrapper">                   
-                                        <div class="pricing-table-header">
-                                            <div class="pricing-table-title">BASIC</div>                                                
-                                        </div>
-                                        <div class="pricing-table-price">$25</div>
-                                        <div class="pricing-table-desc">PER MONTH</div>
-                                        <div class="pricing-table-content-holder">  
-                                            <ul>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    Unlimited Support
-                                                </li>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    5GB Server Space
-                                                </li>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    2 Users per Project
-                                                </li>
-                                                <li class="pricing-list included-no">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    Email Integration
-                                                </li>
-                                                <li class="pricing-list included-no">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    Unlimited Download
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-button">
-                                        <a href="#" class="button scroll">
-                                            CHOOSE PLAN
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="one_third">
-                                <div class="pricing-table ">
-                                    <p class="pricing-num">2</p>
-                                    <div class="pricing-wrapper">                   
-                                        <div class="pricing-table-header">
-                                            <div class="pricing-table-title">ADVANCED</div>                                                
-                                        </div>
-                                        <div class="pricing-table-price">$50</div>
-                                        <div class="pricing-table-desc">PER MONTH</div>
-                                        <div class="pricing-table-content-holder">  
-                                            <ul>                                                 
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    Unlimited Support
-                                                </li>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    5GB Server Space
-                                                </li>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    2 Users per Project
-                                                </li>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    Email Integration
-                                                </li>
-                                                <li class="pricing-list included-no">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    Unlimited Download
-                                                </li>
-                                            </ul>                                            
-                                        </div>
-                                    </div>
-                                    <div class="pricing-button">
-                                        <a href="#" class="button scroll">
-                                            CHOOSE PLAN
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="one_third last">
-                                <div class="pricing-table ">
-                                    <p class="pricing-num">3</p>
-                                    <div class="pricing-wrapper">                   
-                                        <div class="pricing-table-header">
-                                            <div class="pricing-table-title">EXPERT</div>                                                
-                                        </div>
-                                        <div class="pricing-table-price">$75</div>
-                                        <div class="pricing-table-desc">PER MONTH</div>
-                                        <div class="pricing-table-content-holder">  
-                                            <ul>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    Unlimited Support
-                                                </li>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    5GB Server Space
-                                                </li>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    2 Users per Project
-                                                </li>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    Email Integration
-                                                </li>
-                                                <li class="pricing-list included-yes">
-                                                    <span class="fa fa-check" aria-hidden="true"></span>
-                                                    Unlimited Download
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="pricing-button">
-                                        <a href="#" class="button scroll">
-                                            CHOOSE PLAN
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clear"></div>
-                        </div>                        
-                    </div>
-                </div>  -->
 
             <!-- Team Section -->
             <div id="team" class="section">
@@ -581,10 +781,29 @@
                                 <h5 class="member-name">Victor Bitrus Matabof</h5>
                                 <div class="member-content">
                                     <p>
-                                        Taking a digital stride, the University of Benin also took the lead by
-                                        developing a software for the conduct of its Computer Based Testing for all
-                                        examinations in the university. The software for CBT was indigenously developed
-                                        by the University of Benin ICT Unit.
+                                        Victor Bitrus Matabof is an exceptional leader who was elected as the President
+                                        of the Jos University Medical Students Association (JUMSA) for the 2020/2021
+                                        academic session. He had a resounding victory in the online elections, which
+                                        marked the first of its kind in both the Association and the university. One of
+                                        his outstanding qualities is his commitment to human relationships amongst his
+                                        students, which has made him a popular figure among medical students.
+
+                                        Victor Matabof is not one to conform to the status quo, as he challenged the
+                                        existing system and upgraded it for the betterment of the Association. He
+                                        introduced innovative ideas that improved the welfare of medical students and
+                                        provided them with necessary materials that aided their academic excellence. His
+                                        contributions have been greatly appreciated by his followers and colleagues.
+
+                                        As a medical student president, Victor Matabof is known for his diligent efforts
+                                        in ensuring that students are properly guided towards achieving their
+                                        professional exams. He understands the importance of academic excellence and
+                                        ensures that medical students have access to all the resources they need to
+                                        excel in their academic pursuits.
+
+                                        In conclusion, Victor Bitrus Matabof is a compassionate, helpful, and dedicated
+                                        leader who values human relationships amongst his students. His leadership has
+                                        been instrumental in the success of many medical students, and he continues to
+                                        be a source of inspiration to many.
                                     </p>
                                     <div class="member-social-holder" data-jarallax-element="0 30">
                                         <div class="social">
@@ -625,9 +844,21 @@
                                 <h5 class="member-name">Ekoja Ehi</h5>
                                 <div class="member-content">
                                     <p>
-                                        Ehi Ekoja is an exceptional young lady who has made history in Jos University Medical Students Association (JUMSA) as the first female president of the association. Her positive attitude, leadership skills and dedication to serving her fellow medical students were some of the qualities that earned her the prestigious position. As the president of JUMSA for the 2019/2020 session, Ehi was able to harness resources from the association's alumni members, which she used to execute various projects and initiatives aimed at improving the welfare of medical students.
+                                        Ehi Ekoja is an exceptional young lady who has made history in Jos University
+                                        Medical Students Association (JUMSA) as the first female president of the
+                                        association. Her positive attitude, leadership skills and dedication to serving
+                                        her fellow medical students were some of the qualities that earned her the
+                                        prestigious position. As the president of JUMSA for the 2019/2020 session, Ehi
+                                        was able to harness resources from the association's alumni members, which she
+                                        used to execute various projects and initiatives aimed at improving the welfare
+                                        of medical students.
 
-                                        As the first female president of JUMSA, Ehi has inspired many young girls in the medical field, encouraging them to aim for top leadership positions in their various organisations. Her leadership style, characterised by deep empathy, an open-door policy, and a passion for service, has gone a long way in setting a high standard for future leaders of the association and the medical profession at large.
+                                        As the first female president of JUMSA, Ehi has inspired many young girls in the
+                                        medical field, encouraging them to aim for top leadership positions in their
+                                        various organisations. Her leadership style, characterised by deep empathy, an
+                                        open-door policy, and a passion for service, has gone a long way in setting a
+                                        high standard for future leaders of the association and the medical profession
+                                        at large.
                                     </p>
                                     <div class="member-social-holder" data-jarallax-element="0 30">
                                         <div class="social">
@@ -668,13 +899,27 @@
                                 <h5 class="member-name">Vokol Simon</h5>
                                 <div class="member-content">
                                     <p>
-                                        Simon Vokol was a JUMSA President who had a deep appreciation for human relationships amongst his colleagues. He served the Jos University Medical Students Association JUMSA in the 2018/2019 session and during his tenure, he ensured that students felt valued and heard. 
+                                        Simon Vokol was a JUMSA President who had a deep appreciation for human
+                                        relationships amongst his colleagues. He served the Jos University Medical
+                                        Students Association JUMSA in the 2018/2019 session and during his tenure, he
+                                        ensured that students felt valued and heard.
 
-                                        Simon's leadership style was characterized by his helpful, gentle, patient, and friendly nature. He took the time to listen to his fellow students' concerns and always went out of his way to offer support whenever needed. Simon understood that medical school can be quite challenging and often stressful, and he made it his mission to ensure that no one felt overwhelmed or alone during their studies.
-                                        
-                                        One of Simon's greatest strengths as a leader was his ability to connect with people. He built strong relationships with his colleagues and earned their trust and respect. This enabled him to build a large followership even after medical school.
-                                        
-                                        In conclusion, Simon Vokol was a medical student president who left an indelible mark on the Jos University Medical Students Association JUMSA. His leadership style, which prioritized human relationships, continues to inspire and impact those who had the privilege of working with him.
+                                        Simon's leadership style was characterized by his helpful, gentle, patient, and
+                                        friendly nature. He took the time to listen to his fellow students' concerns and
+                                        always went out of his way to offer support whenever needed. Simon understood
+                                        that medical school can be quite challenging and often stressful, and he made it
+                                        his mission to ensure that no one felt overwhelmed or alone during their
+                                        studies.
+
+                                        One of Simon's greatest strengths as a leader was his ability to connect with
+                                        people. He built strong relationships with his colleagues and earned their trust
+                                        and respect. This enabled him to build a large followership even after medical
+                                        school.
+
+                                        In conclusion, Simon Vokol was a medical student president who left an indelible
+                                        mark on the Jos University Medical Students Association JUMSA. His leadership
+                                        style, which prioritized human relationships, continues to inspire and impact
+                                        those who had the privilege of working with him.
                                     </p>
                                     <div class="member-social-holder" data-jarallax-element="0 -30">
                                         <div class="social">
@@ -719,11 +964,23 @@
                                 <h5 class="member-name">Nantok Dakwak</h5>
                                 <div class="member-content">
                                     <p>
-                                        Nantok Dakwak was an exceptional leader who served as the President of the Jos University Medical Students Association (JUMSA) during the 2017/2018 session. One of his greatest strengths as a leader was his ability to value human relationships amongst his students. He was always willing to listen to the concerns and opinions of his fellow students, and was never too busy to lend a helping hand.
+                                        Nantok Dakwak was an exceptional leader who served as the President of the Jos
+                                        University Medical Students Association (JUMSA) during the 2017/2018 session.
+                                        One of his greatest strengths as a leader was his ability to value human
+                                        relationships amongst his students. He was always willing to listen to the
+                                        concerns and opinions of his fellow students, and was never too busy to lend a
+                                        helping hand.
 
-Under his leadership, JUMSA experienced tremendous growth and development. He worked tirelessly to ensure that all students had access to the resources and support they needed to excel in their studies. Nantok also encouraged collaboration among his colleagues, organising study groups and social events to promote a sense of community within the medical school.
+                                        Under his leadership, JUMSA experienced tremendous growth and development. He
+                                        worked tirelessly to ensure that all students had access to the resources and
+                                        support they needed to excel in their studies. Nantok also encouraged
+                                        collaboration among his colleagues, organising study groups and social events to
+                                        promote a sense of community within the medical school.
 
-Overall, Nantok Dakwak was an exemplary leader who embodied the values of empathy, compassion, and collaboration. His commitment to human relationships amongst his students set him apart and is a legacy that will not easily be forgotten.
+                                        Overall, Nantok Dakwak was an exemplary leader who embodied the values of
+                                        empathy, compassion, and collaboration. His commitment to human relationships
+                                        amongst his students set him apart and is a legacy that will not easily be
+                                        forgotten.
                                     </p>
                                     <div class="member-social-holder" data-jarallax-element="0 30">
                                         <div class="social">
@@ -764,11 +1021,22 @@ Overall, Nantok Dakwak was an exemplary leader who embodied the values of empath
                                 <h5 class="member-name">Ejembi Oche</h5>
                                 <div class="member-content">
                                     <p>
-                                        Oche Ejembi is a distinguished medical student who rose to become the president of the Jos University Medical Students Association (JUMSA) in the 2016/2017 academic session. Throughout his tenure, he demonstrated exemplary leadership qualities and a strong commitment to the advancement of medical education.
+                                        Oche Ejembi is a distinguished medical student who rose to become the president
+                                        of the Jos University Medical Students Association (JUMSA) in the 2016/2017
+                                        academic session. Throughout his tenure, he demonstrated exemplary leadership
+                                        qualities and a strong commitment to the advancement of medical education.
 
-                                        Under Oche's leadership, JUMSA organized several health outreaches and medical missions that impacted positively on the lives of many people. The medical missions were typically targeted at rural communities that lacked access to basic healthcare services. Oche worked tirelessly with his team to ensure that the medical missions were successful, and that the people in these communities received adequate medical attention.
-                                        
-                                        In summary, as the president of JUMSA, Oche Ejembi proved himself to be an effective and visionary leader, committed to the betterment of medical education and healthcare delivery in Nigeria. His contributions to the association will continue to have a lasting impact on the medical profession in the country.
+                                        Under Oche's leadership, JUMSA organized several health outreaches and medical
+                                        missions that impacted positively on the lives of many people. The medical
+                                        missions were typically targeted at rural communities that lacked access to
+                                        basic healthcare services. Oche worked tirelessly with his team to ensure that
+                                        the medical missions were successful, and that the people in these communities
+                                        received adequate medical attention.
+
+                                        In summary, as the president of JUMSA, Oche Ejembi proved himself to be an
+                                        effective and visionary leader, committed to the betterment of medical education
+                                        and healthcare delivery in Nigeria. His contributions to the association will
+                                        continue to have a lasting impact on the medical profession in the country.
                                     </p>
                                     <div class="member-social-holder" data-jarallax-element="0 -30">
                                         <div class="social">
@@ -811,13 +1079,29 @@ Overall, Nantok Dakwak was an exemplary leader who embodied the values of empath
                             <h5 class="member-name">Johnny Ahumaraezenma</h5>
                             <div class="member-content">
                                 <p>
-                                    Johnny Ahumaraezenma, the former president of the Jos University Medical Students Association (JUMSA) during the 2015/2016 session was a remarkable leader. Throughout his tenure, he placed utmost importance on the welfare and relationship with medical students.
+                                    Johnny Ahumaraezenma, the former president of the Jos University Medical Students
+                                    Association (JUMSA) during the 2015/2016 session was a remarkable leader. Throughout
+                                    his tenure, he placed utmost importance on the welfare and relationship with medical
+                                    students.
 
-One of Johnny's most notable accomplishments was his commitment to academic excellence. He would often hold tutorial sessions for students who needed extra assistance and guidance in their studies. This selfless act greatly impacted the academic performance of many students, improving their grades and overall academic success.
+                                    One of Johnny's most notable accomplishments was his commitment to academic
+                                    excellence. He would often hold tutorial sessions for students who needed extra
+                                    assistance and guidance in their studies. This selfless act greatly impacted the
+                                    academic performance of many students, improving their grades and overall academic
+                                    success.
 
-However, Johnny's leadership did not stop at academics alone; he also placed significant emphasis on the well-being and interpersonal relationships of his fellow medical students. His friendly disposition and willingness to listen earned him a large following among the student body. He ensured that every student under his leadership had a friend in him, creating a positive atmosphere for learning and growth.
+                                    However, Johnny's leadership did not stop at academics alone; he also placed
+                                    significant emphasis on the well-being and interpersonal relationships of his fellow
+                                    medical students. His friendly disposition and willingness to listen earned him a
+                                    large following among the student body. He ensured that every student under his
+                                    leadership had a friend in him, creating a positive atmosphere for learning and
+                                    growth.
 
-Today, even after medical school, Johnny still has a vast follower-ship among his colleagues. Many attest to his kindness and willingness to help, both academically and personally. He remains an inspiration to many medical students, who continue to value the relationships they build in the medical community as much as their academic success.
+                                    Today, even after medical school, Johnny still has a vast follower-ship among his
+                                    colleagues. Many attest to his kindness and willingness to help, both academically
+                                    and personally. He remains an inspiration to many medical students, who continue to
+                                    value the relationships they build in the medical community as much as their
+                                    academic success.
                                 </p>
                                 <div class="member-social-holder" data-jarallax-element="0 -30">
                                     <div class="social">
@@ -848,8 +1132,7 @@ Today, even after medical school, Johnny still has a vast follower-ship among hi
                                 </div>
                             </div>
                         </div>
-                        <img src="images/about_item_06.jpg" alt="" data-threshold="0 0"
-                            data-jarallax-element="50 0" />
+                        <img src="images/about_item_06.jpg" alt="" data-threshold="0 0" data-jarallax-element="50 0" />
                     </div>
                 </div>
             </div>
@@ -1094,12 +1377,14 @@ Today, even after medical school, Johnny still has a vast follower-ship among hi
         <footer class="footer">
             <div class="footer-content center-relative">
                 <div class="footer-logo">
-                    <img style="height: 7rem; margin-bottom: -2rem;" src="images/footer_logo.png" alt="JUMSA" />
+                    <img style="height: 7rem; margin-bottom: -2rem; scale: 0.6;" src="images/footer_logo.png"
+                        alt="JUMSA" />
                     <h2>Great jumsites!!</h2>
                 </div>
                 <div class="footer-logo-divider"></div>
+                <p>Use the Live chat option by the bottom right of the Screen or <br> Write to us via:</p>
                 <div class="footer-mail">
-                    <a href="mailto:myllashweb@myllash.com">hellojumsa@gmail.com</a>
+                    <a href="mailto:myllashweb@myllash.com">jumsa.org@gmail.com</a>
                 </div>
                 <div class="footer-social-divider"></div>
                 <div class="social-holder">
@@ -1137,17 +1422,22 @@ Today, even after medical school, Johnny still has a vast follower-ship among hi
     <script src='js/owl.carousel.min.js'></script>
     <script src='js/jquery.sticky-kit.min.js'></script>
     <script src='js/main.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/647bee8d7957702c744ba10e/1h221nmjo';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/647bee8d7957702c744ba10e/1h221nmjo';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
     </script>
     <!--End of Tawk.to Script-->
 </body>

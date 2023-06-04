@@ -787,12 +787,12 @@ a.button-dot:hover:before {
 ====================================== */
 
 #home {    
-    background-image: url(images/hero_image_01.jpg);
+    /* background-image: url(images/hero_image_01.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: calc(100vh - 77px);    
-    display: flex;
+    display: flex; */
 }
 
 #home .section-wrapper {
@@ -801,7 +801,7 @@ a.button-dot:hover:before {
 }
 
 h1.big-text {
-    color: rgb(250, 247, 236);
+    color: grey;
     font-size: 60px;
     line-height: 120%;
     margin-bottom: 10px;
@@ -1162,6 +1162,12 @@ h1.big-text span{
     border: 2px solid #000;
     position: relative;
     text-align: left;
+    display: none;
+}
+
+
+.pricing-table:hover {
+    opacity: 0.8;
 }
 
 .pricing-wrapper {
