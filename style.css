@@ -1210,8 +1210,8 @@ h1.big-text span{
 }
 
 .pricing-table-price {
-    font-size: 100px;
-    line-height: 120%;
+    font-size: 40px;
+    line-height: 80%;
     color: #1e6396;
     font-weight: 700;
 }
