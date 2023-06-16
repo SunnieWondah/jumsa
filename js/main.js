@@ -435,7 +435,7 @@
         $(".p1").text("Imagine a room filled with people you feel safe enough to share your dreams with and work together towards achieving it, Get to socailise on the New Jumsa App on the Web, Just Resgister To start your Experience.")
 
         setTimeout(() => {
-            $(".p1").text("Imagine a room filled with people you feel safe enough to share your dreams with and work together towards achieving it. The best part? You get to do it with people you... ")
+            $(".p1").text("Imagine a room filled with people you feel safe enough to share your dreams with and work together towards achieving it. Get to socailise on the New Jumsa App on... ")
         }, 10000);
 
     })
@@ -453,7 +453,7 @@
         $(".p3").text("Don't know where to get that Material? PDF? Textbook? Jumsa has you covered With Our EverGrowing e-Library the struggle to get Materials would soon be a thing of the Past.")
 
         setTimeout(() => {
-            $(".p3").text("Between getting immersed in the dissection lab or trying to prep for a physio test, the chronicles of life in school is a tale of hustle and bustle. The struggle to survive overtakes... ")
+            $(".p3").text("Don't know where to get that Material? PDF? Textbook? Jumsa has you covered With Our EverGrowing... ")
         }, 10000);
 
     })
