@@ -432,7 +432,7 @@
         });
     }
     $(".1").click(function () {
-        $(".p1").text("Imagine a room filled with people you feel safe enough to share your dreams with and work together towards achieving it, Get to socailise on the New Jumsa App on the Web, Just Resgister To start your Experience.")
+        $(".p1").text("Imagine a room filled with people you feel safe enough to share your dreams with and work together towards achieving it, Get to socailise on the New Jumsa App on the Web, Just Register To start your Experience.")
 
         setTimeout(() => {
             $(".p1").text("Imagine a room filled with people you feel safe enough to share your dreams with and work together towards achieving it. Get to socailise on the New Jumsa App on... ")
