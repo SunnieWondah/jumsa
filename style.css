@@ -546,8 +546,18 @@ a.button-dot {
     position: relative;
 }
 
+a.button-dot-black {
+    color: #000;
+    font-size: 16px;
+    position: relative;
+}
+
 a.button-dot:hover {
     color: #fff;    
+}
+
+a.button-dot-black:hover {
+    color: #1e6396;    
 }
 
 a.button-dot span {
@@ -580,6 +590,30 @@ a.button-dot:hover:before {
     top: -18px;
 }
 
+
+.hideFame{
+    display: none;
+}
+
+.hideFame1{
+    display: none;
+}
+
+.hideFame2{
+    display: none;
+}
+
+.hideFame3{
+    display: none;
+}
+
+.hideFame4{
+    display: none;
+}
+
+.hideFame6{
+    display: none;
+}
 
 /* ===================================
     2.5 Image/Text Slider CSS

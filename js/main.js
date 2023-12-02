@@ -458,7 +458,52 @@
 
     })
 
-    $(".open-donate").click(function(){
+    $(".open-donate").click(function () {
         $(".pricing-table").toggle(700);
-        });
+    });
+
+    $(".00").click(function () {
+
+        $(this).text(function (i, text) {
+            return text === "less" ? "more" : "less";
+        })
+        $(".hideFame").toggle(700);
+    });
+    $(".01").click(function () {
+
+        $(this).text(function (i, text) {
+            return text === "less" ? "more" : "less";
+        })
+        $(".hideFame1").toggle(700);
+    });
+    $(".02").click(function () {
+
+        $(this).text(function (i, text) {
+            return text === "less" ? "more" : "less";
+        })
+        $(".hideFame2").toggle(700);
+    });
+    $(".03").click(function () {
+
+        $(this).text(function (i, text) {
+            return text === "less" ? "more" : "less";
+        })
+        $(".hideFame3").toggle(700);
+    });
+    $(".04").click(function () {
+
+        $(this).text(function (i, text) {
+            return text === "less" ? "more" : "less";
+        })
+        $(".hideFame4").toggle(700);
+    });
+    $(".06").click(function () {
+
+        $(this).text(function (i, text) {
+            return text === "less" ? "more" : "less";
+        })
+        $(".hideFame6").toggle(700);
+    });
+
+
 })(jQuery);
